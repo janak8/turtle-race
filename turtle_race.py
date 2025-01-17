@@ -3,7 +3,7 @@ import random
 import time
 
 # Turtle colors and initialization
-colors = ["🟥", "🟧", "🟨", "🟩", "🟦", "🟪"]
+colors = ["🟥Red", "🟧Orange", "🟨Yellow", "🟩Green", "🟦Blue", "🟪Purple"]
 turtle_positions = {color: 0 for color in colors}  # Track progress of each "turtle"
 race_started = False
 
