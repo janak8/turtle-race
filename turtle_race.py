@@ -28,7 +28,7 @@ if race_started:
         for color in colors:
             turtle_positions[color] += random.randint(1, 10)  # Random step forward
             placeholders[color].text(f"{color}: {'🐢' * (turtle_positions[color] // 10)}")  # Show progress
-            if turtle_positions[color] >= 100:  # Race ends when one turtle reaches 100
+            if turtle_positions[color] >= 150:  # Race ends when one turtle reaches 100
                 winner = color
                 break
         time.sleep(0.3)  # Add a delay for animation effect
